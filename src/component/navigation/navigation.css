@@ -1,0 +1,97 @@
+/* *{
+    padding:0px;
+    margin:0px;
+    
+  }
+  
+  
+  body {
+      font-size: 30px;
+      font-weight:600;
+      font-family:'Times New Roman', Times, serif;
+    }
+
+.nav11 {
+  display: flex;
+  flex-direction: row-reverse-center;
+  border-radius: 5rem;
+  border-radius: 100px;
+  background-color: rgba(228, 92, 29, 0.6);
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  color: rgb(248, 15, 15);
+  position: sticky;
+  top: 0;
+}
+
+li {
+  margin: 25px 50px 75px 100px;
+  cursor: pointer;
+  background-color: #f35a12c2;
+  display: block;
+  color: rgb(138, 68, 68);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li:hover {
+  color: rgb(145, 43, 43);
+}
+
+li.signup {
+  float: right;
+  color: black;
+}
+
+li.emma:hover {
+  background-color: rgb(255, 145, 0);
+  cursor: pointer;
+} */
+/* .navbar{
+  background-color: blueviolet;
+
+}
+
+.links{
+  display: grid;
+  grid-auto-flow: column;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+
+}
+
+.navbar-icon{
+  list-style: none;
+} */
+
+.navbar{
+  background-color:blueviolet ;
+  Border-radius:3rem;
+  margin:20px;
+}
+
+.links{
+  display: grid;
+  grid-auto-flow: row;
+  justify-content: center;
+  align-items: center;
+  padding: 1rem;
+}
+
+.links li{
+  list-style: none;
+  display:inline-block;
+  padding:0px 20px;
+}
+
+.links li:hover{
+  color:orangered;
+  cursor:pointer;
+}
